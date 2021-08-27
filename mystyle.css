@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=WindSong:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-img {
+  background-image: url(/img/bg2.jpg);
+  min-height: 654px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  font-family: "Ubuntu";
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 0px;
+  width: auto;
+  display: flex;
+}
+
+#downarw{
+  color: white;
+  margin-left: 95%;
+  padding: 6px;
+  line-height: 4;
+}
+
+#downarw i{
+  color: white;
+}
+#downarw i:hover {
+  color: red;
+}
+
+.container i {
+  color: whitesmoke;
+}
+.nav-contact {
+  float: right;
+  padding-right: 25px;
+  margin-top: 22px;
+}
+.nav-contact i {
+  color: whitesmoke;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 29px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  color: red;
+}
+
+.name {
+  position: absolute;
+  font-family: "WindSong";
+  color: rgb(255, 0, 0);
+  font-size: 60px;
+  top: 520px;
+  left: 550px;
+  text-shadow: 2px 2px 5px rgb(255, 7, 7)
+}
+
+#name1{
+  font-family:"Ubuntu";
+  color: white;
+  text-align: center;
+}
+
+#hob {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  padding: 2.5% 0 13px;
+  text-shadow: -3px 3px 3px rgb(102, 102, 102);
+  font-family: "Ubuntu";
+}
+
+.container4{
+    display: flex;
+    height:100vh;
+
+}
+
+.container4 h3{
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 30px;
+}
+
+.hobcont img{
+    width:300px;
+    height: 200px;
+    border-radius: 135px;
+    
+}
+
+
+.hobcont a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Ubuntu;
+    font-size: 25px;
+    color:white;
+    line-height: 150px;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.hobcont{
+    padding: auto;
+    margin: auto;
+    background-color:black;
+    color:cyan;
+    box-shadow: -10px 10px 15px black;
+    border-radius: 25px;
+    text-align: center;
+    width: 27%;
+    height: 75vh;
+    animation: mymove2 3s infinite;
+}
+
+@keyframes mymove2 {
+    50% {box-shadow: 10px 20px 30px rgb(21, 21, 155);}
+  }
+
+.container2 h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  padding: 2.5% 0 13px;
+  text-shadow: -3px 3px 3px rgb(102, 102, 102);
+  font-family: "Ubuntu";
+}
+
+.container4 a:hover{
+  color:blue;
+  opacity: 1;
+}
+
+
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  flex-direction: row-reverse;
+}
+
+.flex-box2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-box2:nth-child(even) {
+  flex-direction: row-reverse;
+  background-color: black;
+}
+
+table {
+  border-collapse: collapse;
+  height: 25vw;
+  text-align: left;
+  font-size: 1.3rem;
+  font-family: "Ubuntu";
+}
+
+th,
+td {
+  border-bottom: 1px solid white;
+  padding: 5px;
+  color: white;
+}
+
+.card {
+  padding: 35px;
+  border-radius: 25px;
+  box-shadow: -10px 10px 15px black;
+  background-color: black;
+}
+
+.container2 img {
+  width: auto;
+  height: 50vh;
+  clip-path: circle();
+}
+
+.container3 {
+  font-family: "Ubuntu";
+  font-size: 18px;
+  height: 60vh;
+}
+
+.container3 img {
+  width: auto;
+  height: 45vh;
+  clip-path: circle();
+  padding:20px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+  font-family: "Ubuntu";
+  font-size: 25px;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #272323f1;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
+
+.flex-box-contact {
+  display: flex;
+}
+
+#contact {
+  width: 50%;
+  font-family: "Ubuntu";
+  font-size: 15px;
+  text-align: center;
+  line-height: 45px;
+}
+
+.contact {
+  padding: 45px;
+}
+
+.contact i {
+  color: black;
+}
+
+.forms input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+
+.forms input:hover {
+  border: 2px solid gray;
+  border-collapse: collapse;
+}
+
+#fb:hover {
+  color: blue;
+}
+
+#insta:hover {
+  color: rgb(223, 31, 63);
+}
+
+#tweet:hover {
+  color: rgb(0, 114, 185);
+}
+
+#linkedin:hover {
+  color: rgb(5, 5, 124);
+}
+
+#github:hover {
+  color: black;
+}
+
+#mail:hover {
+  color: rgb(158, 17, 17);
+}
+
+#btn {
+  padding: 13px;
+  margin: 4px;
+  border: none;
+  background-color: black;
+  color: white;
+  width: 98%;
+}
+
+#btn:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+#particles-js {
+  height: 100vh;
+  background-color: black;
+}
