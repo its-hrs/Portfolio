@@ -87,9 +87,9 @@ html {
 #hob {
   text-align: center;
   font-size: 3rem;
-  color: black;
-  padding: 2.5% 0 13px;
-  text-shadow: -3px 3px 3px rgb(102, 102, 102);
+  color: color: rgb(240, 224, 81);
+  padding: 1.5% 0 13px;
+  text-shadow: 3px 3px rgb(163, 31, 31);
   font-family: "Ubuntu";
 }
 
@@ -143,9 +143,9 @@ html {
 .container2 h2 {
   text-align: center;
   font-size: 3rem;
-  color: black;
+  color: color: rgb(240, 224, 81);
   padding: 1.5% 0 13px;
-  text-shadow: -3px 3px 3px rgb(102, 102, 102);
+  text-shadow: 3px 3px rgb(163, 31, 31);
   font-family: "Ubuntu";
 }
 
