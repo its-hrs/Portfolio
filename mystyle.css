@@ -11,7 +11,7 @@ html {
 }
 
 .bg-img {
-  background-image: url(./img/bg2.jpg);
+  background-image: url(/img/bg2.jpg);
   min-height: 654px;
 
   background-position: center;
@@ -82,8 +82,9 @@ html {
   font-family:"Ubuntu";
   color: white;
   text-align: center;
+  text-decoration: none ;
 }
-
+ 
 #hob {
   text-align: center;
   font-size: 3rem;
@@ -199,8 +200,14 @@ td {
 .container2 img {
   width: auto;
   height: 50vh;
-  clip-path: circle();
 }
+
+#profile-img{
+  box-shadow: 0px 5px 8px rgb(104, 103, 103);
+  border: none;
+  border-radius: 10px;
+  margin-left: 16%;
+  }
 
 .container3 {
   font-family: "Ubuntu";
@@ -359,6 +366,16 @@ td {
   background-color: gray;
   cursor: pointer;
 }
+
+#phone{
+  color:black;
+  cursor:pointer;
+  
+}
+#phone:hover{
+  color: #0076fc;
+}
+
 #particles-js {
   height: 100vh;
   background-color: black;
